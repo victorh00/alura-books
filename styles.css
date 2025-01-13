@@ -7,8 +7,13 @@
     --destaque: #EB9B00;
     --principal-1: #002F52;
     --principal-2: #326589;
+    --gradiente: linear-gradient(-20deg, #002F52 0%, #326589 100%);
+    --fonte: "Poppins", serif;
 }
 
 body {
     background-color: var(--fundo);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
 }

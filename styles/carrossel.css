@@ -7,3 +7,71 @@
     text-transform: uppercase;
     padding: 1.2em 0 0.6em 0;
 }
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+.card {
+    background-color: var(--branco);
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 1em auto; /* centralizar horizontalmente */
+    padding: 1em;
+    width: 100%;
+    max-width: 90vw;
+    overflow: hidden;
+}
+
+.descricao {
+    width: 50%;
+    margin-right: 0.5em;
+}
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.descricao__titulo {
+    color: var(--destaque);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.descricao__titulo-livro {
+    color: var(--principal-1);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descricao__texto {
+    font-size: 14px;
+}
+
+.descricao__imagem {
+    background-color: var(--preto);
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+}

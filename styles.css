@@ -1,6 +1,8 @@
 @import url("./styles/header.css");
 @import url("./styles/banner.css");
 @import url("./styles/carrossel.css");
+@import url("./styles/topicos.css");
+@import url("./styles/contato.css");
 
 :root {
     --branco: #FFFFFF;
@@ -9,7 +11,7 @@
     --destaque: #EB9B00;
     --principal-1: #002F52;
     --principal-2: #326589;
-    --gradiente: linear-gradient(-20deg, #002F52 0%, #326589 100%);
+    --gradiente: linear-gradient(160deg, #002F52 0%, #326589 100%);
     --fonte: "Poppins", serif;
 }
 

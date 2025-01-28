@@ -1,0 +1,16 @@
+hr {
+    border-top: 1px solid var(--principal-1);
+    opacity: 0.5;
+}
+
+.rodape__titulo__container {
+    background-color: var(--branco);
+    padding: 1.5em;
+}
+
+.rodape__titulo {
+    background: var(--gradiente);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

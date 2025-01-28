@@ -25,7 +25,7 @@
 .contato__email {
     color: var(--principal-1);
     padding: 0.6em 1.2em;
-    margin: 0 auto;
+    margin: 0.8em auto;
     border: 1.5px solid var(--principal-1);
     border-radius: 26px;
     width: 100%
